@@ -7,79 +7,103 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-5388435e.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/vanilla-app-template/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
+    <header class="header container">
+     <a 
+     class="logo-header"
+     href="./index.html">
+         <img
+          src="./img/logo.svg" 
+          alt="logo"
+          width="64"
+          height="64"><img src="./img/LEONPLOT.svg" 
+         alt="name"
+         >
+     </a>
+     <nav>
+         <ul class="menu-list">
+             <li><a href="#dlaczego">O NAS</a></li>
+             <li><a href="#oferta">OFERTA</a></li>
+             <li><a href="#realizacje">REALIZACJE</a></li>
+             <li><a href="#blog">BŁOG</a></li>
+             <li><a href="#opinie">OPINIE</a></li>
+             <li><a href="#kontakt">KONTAKT</a></li>
+         </ul>
+     </nav>
+    </header>
+    <main>
+     <section class="hero" id="hero">
+         <div>indywidualne podejście</div>
+     </section>
+     <section class="dlaczego" id="dlaczego">
+         <h2>LEONPLOT</h2>
+         <h3>Dlaczego warto skorzystać z naszej oferty?</h3>
+         <ul>
+             <li>Wieloletnie doświadczenia</li>
+             <li>Szybki czas realizacji</li>
+             <li>Polecają klienci</li>
+             <li>Materiały najwyższej jakości</li>
+             <li>Gwarancja jakości</li>
+         </ul>
+     </section>
+     <section class="oferta" id="oferta">
+      <h2>OFERTA</h2>
+      <ul>
+          <li>
+              <img src="" alt="">
+              <h3>Bramy dwuskrzydłowe</h3>
+          </li>
+          <li>
+              <img src="" alt="">
+              <h3>Furtki</h3>
+          </li>
+          <li>
+              <img src="" alt="">
+              <h3>Bramy przesuwne</h3>
+          </li>
+          <li>
+              <img src="" alt="">
+              <h3>Paneli</h3>
+          </li>
+          <li>
+              <img src="" alt="">
+              <h3>Automat do bramy</h3>
+          </li>
+          <li>
+              <img src="" alt="">
+              <h3>Montaz</h3>
+          </li>
       </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/vanilla-app-template/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
-  </div>
+  </section>
+  <section class="realizacje" id="realizacje">
+      <h2>REALIZACJE</h2>
+  </section>
+  <section class="blog" id="blog">
+      <h2>BŁOG
+      </h2>
+  </section>
+  <section class="opinie" id="opinie">
+      <h2>OPINIE</h2>
+  </section>
+  <section class="kontakt" id="kontakt">
+    <h2>KONTAKT</h2>
 </section>
-
-
+</main>
+<footer>
+<nav>
+    <ul class="menu-list">
+        <li><a href="#dlaczego">O NAS</a></li>
+        <li><a href="#oferta">OFERTA</a></li>
+        <li><a href="#realizacje">REALIZACJE</a></li>
+        <li><a href="#blog">BŁOG</a></li>
+        <li><a href="#opinie">OPINIE</a></li>
+        <li><a href="#kontakt">KONTAKT</a></li>
+    </ul>
+</nav>
+</footer>
+</body>
     
   </body>
 </html>
