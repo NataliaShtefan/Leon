@@ -23,3 +23,40 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+
+
+
+.container {
+  max-width: 1280px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.section {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.header {
+
+  background-color: rgba(0, 0, 0, 0.68);
+  height: 144px;
+  display: flex;
+
+}
+.logo-header {
+  display: flex;
+  width: 480px;
+  height: 94px;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.menu-list {
+list-style: none;
+gap: 40px;
+display: inline-flex;
+}
