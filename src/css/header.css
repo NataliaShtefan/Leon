@@ -1,21 +1,50 @@
+
 .header {
-  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.80) ;
+  height: 120px;
+  position: absolute; 
+  width: 1440px;
+    z-index: 1000;
+    ;
 }
 
-.nav-list {
+.header-nav {
+  display: flex;
+padding: 13px 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+position: relative;
+}
+
+.header-nav::before {
+  content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px; /* Товщина рамки знизу */
+    background: linear-gradient(90deg,
+    rgba(249, 242, 149, 0.32) 0%,
+    rgba(224, 170, 62, 0.32) 30.84%, 
+    rgba(243, 194, 100, 0.69) 61.06%,
+     rgba(239, 197, 49, 0.22) 92.52%);
+    z-index: -1; /* Визначення шару псевдоелемента */
+}
+
+.logo-header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  flex-shrink: 0;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.menu-list {
+list-style: none;
+gap: 32px;
+display: flex;
+color: var(--gold, #E9CF8C);
+font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 3.52px;
+    text-align: center;
+    align-items: center;
 }

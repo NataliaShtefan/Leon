@@ -1,28 +1,16 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./blog.css');
+@import url('./dlaczego.css');
+@import url('./footer.css');
+@import url('./hero.css');
+@import url('./kontakt.css');
+@import url('./oferta.css');
+@import url('./opinie.css');
+@import url('./realizacja.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 
 
 
@@ -40,23 +28,3 @@
   padding-bottom: 80px;
 }
 
-.header {
-
-  background-color: rgba(0, 0, 0, 0.68);
-  height: 144px;
-  display: flex;
-
-}
-.logo-header {
-  display: flex;
-  width: 480px;
-  height: 94px;
-  align-items: center;
-  gap: 16px;
-  flex-shrink: 0;
-}
-.menu-list {
-list-style: none;
-gap: 40px;
-display: inline-flex;
-}
