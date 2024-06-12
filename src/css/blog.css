@@ -1,0 +1,68 @@
+.blog {
+    width: 1440px;
+    position: relative;
+    height: 980px;
+    flex-shrink: 0;
+    background-color: #576f35;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.8) 0%, 
+    rgba(0, 0, 0, 0.8) 100%),
+    url(../img/blog-bg.JPG);
+}
+.container {
+    height: 100%;
+    position: relative;
+}
+
+.title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 48px;
+    position: relative;
+
+}
+
+.title-blog {
+    color: var(--gold, #E9CF8C);
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 200;
+    letter-spacing: 3.52px;
+    text-align: center;
+    align-items: center;
+    margin: 0 12px;
+    
+
+}
+
+
+.title-container::before,
+.title-container::after {
+    content: '';
+    flex-grow: 1;
+    height: 4px;
+    background-image: linear-gradient(90deg,
+      rgba(249, 242, 149, 0.32) 0%,
+      rgba(224, 170, 62, 0.32) 30.84%, 
+      rgba(243, 194, 100, 0.69) 61.06%,
+       rgba(239, 197, 49, 0.22) 92.52%);
+}
+
+.container-granica {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 4px; 
+    background-image: linear-gradient(90deg,
+    rgba(249, 242, 149, 0.32) 0%,
+    rgba(224, 170, 62, 0.32) 30.84%, 
+    rgba(243, 194, 100, 0.69) 61.06%,
+     rgba(239, 197, 49, 0.22) 92.52%);
+    
+}

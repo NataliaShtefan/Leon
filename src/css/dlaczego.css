@@ -1,0 +1,125 @@
+.dl-help {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.granica {
+    
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px; 
+      background-image: linear-gradient(90deg,
+      rgba(249, 242, 149, 0.32) 0%,
+      rgba(224, 170, 62, 0.32) 30.84%, 
+      rgba(243, 194, 100, 0.69) 61.06%,
+       rgba(239, 197, 49, 0.22) 92.52%);
+      
+  }
+  
+
+
+.dlaczego {
+    width: 1440px;
+    position: relative;
+    height: 980px;
+    flex-shrink: 0;
+    background-color: #576f35;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.8) 0%, 
+    rgba(0, 0, 0, 0.8) 100%),
+    url(../img/2fon.png);
+}
+
+.container-image {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+
+.container-image::before,
+.container-image::after {
+    content: '';
+    flex-grow: 1;
+    height: 4px;
+    border-bottom: 4px solid  #e9cf8c58;
+    border-top: 4px solid  #e9cf8c58;
+    /* background-image: linear-gradient(90deg,
+      rgba(249, 242, 149, 0.32) 0%,
+      rgba(224, 170, 62, 0.32) 30.84%, 
+      rgba(243, 194, 100, 0.69) 61.06%,
+       rgba(239, 197, 49, 0.22) 92.52%); */
+}
+
+.dl-img {
+width: 480px;
+height: 120px;
+align-items: center;
+gap: 16px;
+flex-shrink: 0;
+}
+
+.title {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 300;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+margin-bottom: 120px;
+margin-top: 40px;
+}
+
+.warto-list {
+    color: #FFF;
+font-family: Raleway;
+font-size: 44px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+display: flex;
+gap: 40px;
+}
+
+.warto-list li {
+    position: relative;
+  
+    padding-left: 40px; 
+    
+}
+
+.warto-list li::before {
+    content: '\21D2'; /* Юнікод для символу стрілки */
+    font-size: 24px;
+    color: #d4af37; /* Золотистий колір */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.dlaczego-img {
+    width: 583px;
+height: 680px;
+flex-shrink: 0;
+}
+
+.dl-photo {
+height: 760px;
+}
