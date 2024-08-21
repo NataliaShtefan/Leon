@@ -7,7 +7,7 @@
     <title>LEONPLOT</title>
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-e74bd4c3.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-d3bf8dc2.css">
   </head>
   <body>
     <body>
@@ -123,7 +123,7 @@
 
 <div class="form-wrap">
     <p class="form-text">PROSIMY O WYSTAWIENIU OPINIU
-        NASZEJ WSPULPRACE </p>
+        NASZEJ WSPUŁPRACE </p>
     <form class="form-opinie">
         <label class="opinie-label" for="name">IMIE, NAZWISKO</label>
         <input 
@@ -132,29 +132,61 @@
         id="name" 
         type="text">
         <label class="opinie-label" for="email">EMAIL</label>
+    
         <input
          class="opinie-input"
           name="email"
            id="email"
             type="email">
+            <div class="user-star">*****</div>
         <label class="opinie-label" for="user-comment">MIEJSCE NA TWOJE OPINIE</label>
         <textarea 
-        class="opinie-textarea" 
+        class="opinie-textarea custom-placeholder" 
         name="user-comment" 
         id="user-comment" 
         placeholder="miejsce na twój komentaż"
         ></textarea>
-        <button>WYŚLIJ</button>
+        
+        <button type="submit" class="btn-opinie">WYŚLIJ</button>
     </form>
 </div>
 
 
     <div class="opinie-wrap">
-    <div class="opinie-container"><h2 class="opinie-title">OPINIE</h2></div>
-    <ul>
-        <li class="user-opinie"></li>
-        <li class="user-opinie"></li>
-        <li class="user-opinie"></li>
+
+    <div class="opinie-container">
+        <h2 class="opinie-title">OPINIE</h2>
+    </div>
+
+    <ul class="user-opinie">
+        <li class="user-opinie-item">
+
+        <div class="opinie-ti">
+            <h4 class="opinie-name">Natalia Shtefan</h4>
+            <div class="opinie-ret">*****</div>
+        </div>
+            <p class="opinie-data">21.04.2024</p>
+            <p class="opinie-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nostrum ad fuga magni, eius, voluptate velit facilis ratione laborum eligendi necessitatibus harum maiores sed tempore repellendus quasi nemo eveniet? Sapiente.</p>
+        </li>
+        <li class="user-opinie-item">
+
+        <div class="opinie-ti">
+            <h4 class="opinie-name">Natalia Shtefan</h4>
+            <div class="opinie-ret">*****</div>
+        </div>
+            <p class="opinie-data">21.04.2024</p>
+            <p class="opinie-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nostrum ad fuga magni, eius, voluptate velit facilis ratione laborum eligendi necessitatibus harum maiores sed tempore repellendus quasi nemo eveniet? Sapiente.</p>
+        </li>
+
+        <li class="user-opinie-item">
+
+        <div class="opinie-ti">
+            <h4 class="opinie-name">Natalia Shtefan</h4>
+            <div class="opinie-ret">*****</div>
+        </div>
+            <p class="opinie-data">21.04.2024</p>
+            <p class="opinie-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nostrum ad fuga magni, eius, voluptate velit facilis ratione laborum eligendi necessitatibus harum maiores sed tempore repellendus quasi nemo eveniet? Sapiente.</p>
+        </li>
     </ul>
 </div>
 
